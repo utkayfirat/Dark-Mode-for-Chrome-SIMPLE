@@ -1,0 +1,27 @@
+{
+    "name": "Dark Mode - Effect of the moon",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Use the effect of the moon for the health of your eyes.",
+    "icons":{
+        "16":"images/icons/icon16-16.png",
+        "48":"images/icons/icon48-48.png",
+        "128":"images/icons/icon128-128.png"
+    },
+    "background": {
+        "service_worker": "main.js"
+    },
+    "action": {
+        "default_title": "Dark Mode - Effect of the moon",
+        "default_popup": "main.html"
+    },
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "permissions":[
+        "tabs",
+        "scripting",
+        "storage"
+    ]
+}
